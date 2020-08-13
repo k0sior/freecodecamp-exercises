@@ -1,5 +1,5 @@
 function getFinalOpenedDoors(numDoors) {
-  // Good luck!
+
   let doors = []
 
   for (let i = 0; i <= 100; i++) { 

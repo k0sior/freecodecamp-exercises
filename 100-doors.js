@@ -28,5 +28,3 @@ function getFinalOpenedDoors(numDoors) {
 
   return result;
 }
-
-console.log(getFinalOpenedDoors(100))

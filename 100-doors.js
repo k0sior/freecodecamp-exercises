@@ -6,9 +6,9 @@ function getFinalOpenedDoors(numDoors) {
     doors.push("closed")
   }
 
-  let test = [...Array(numDoors + 1).keys()];
 
-  for (let j = 1; j < test.length; j++) {
+
+  for (let j = 1; j < numDoors + 1; j++) {
     test.forEach(function(doorNum){
       if (doorNum % j === 0) {
         if (doors[doorNum] === "closed") {

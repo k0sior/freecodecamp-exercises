@@ -7,7 +7,7 @@ function pairwise(arr, arg) {
       if (i === j){
         //do nothing
       } else if (arr[i] + arr[j] == arg) {
-          result.push(i)  // sol. 2: let sum = sum + i + j
+          result.push(i)  // sol. 2: let sum += i + j
           result.push(j)
           arr.splice(i, 1, NaN);
           arr[j] = NaN;

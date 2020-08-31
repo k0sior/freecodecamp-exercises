@@ -14,5 +14,3 @@ function sumPrimes(num) {
   return primes.reduce((a, b) => a + b);
 }
 
-
-console.log(sumPrimes(10));

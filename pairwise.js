@@ -20,5 +20,3 @@ function pairwise(arr, arg) {
 
   return sum;
 }
-
-

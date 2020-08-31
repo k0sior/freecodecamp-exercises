@@ -15,5 +15,4 @@ function palindrome(str) {
 }
 
 
-
 console.log(palindrome("My age is 0, 0 si ega ym."));
